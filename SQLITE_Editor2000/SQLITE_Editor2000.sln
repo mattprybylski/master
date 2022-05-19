@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLITE_Editor2000", "SQLITE_Editor2000\SQLITE_Editor2000.csproj", "{5076B080-2065-4F0D-BB15-9727029D346F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A7D29E0A-8DAE-4589-A433-9BC3D50F9954}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5076B080-2065-4F0D-BB15-9727029D346F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5076B080-2065-4F0D-BB15-9727029D346F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5076B080-2065-4F0D-BB15-9727029D346F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5076B080-2065-4F0D-BB15-9727029D346F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D83A9AC6-7FF2-44B9-9C7A-97462FE5DA15}
+	EndGlobalSection
+EndGlobal
