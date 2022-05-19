@@ -1,0 +1,61 @@
+﻿{
+   "CodeGenerationMode": 0,
+   "ContextClassName": "MpContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models\/DB",
+   "ProjectRootNamespace": "EF.Data",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[tbl_Account]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tbl_Address]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tbl_BillExpense]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tbl_City]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tbl_Company]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tbl_Ledger]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tbl_StateProvince]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "desktop-9qott3n\\sqlexpress.mp.dbo",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}

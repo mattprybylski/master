@@ -1,0 +1,67 @@
+﻿<Window x:Class="MPAccountApplication.View.LedgerViewWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MPAccountApplication.View"
+        xmlns:controls="clr-namespace:MPAccountApplication.Controls"
+        mc:Ignorable="d"
+        Title="LedgerViewWindow" Height="450" Width="800">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition  ></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width=" auto"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row  ="0" Grid.Column="0" Text="Account:"/>
+        <ComboBox  Grid.Row  ="0" Grid.Column="1"   ItemsSource="{Binding Accounts, Mode=TwoWay}" Margin="5"  
+                  SelectedItem ="{Binding Account, Mode=TwoWay}"  />
+        <TextBlock Grid.Row  ="1" Grid.Column  ="0" Text="Type : " Margin="5"/>
+        <ComboBox  Grid.Row  ="1" Grid.Column  ="1"   ItemsSource="{Binding BillExpenses, Mode=TwoWay}" Margin="5"  
+                  SelectedItem="{Binding BillExpense, Mode=TwoWay}"  >
+            <!--<ComboBox.ItemTemplate>
+                <ItemContainerTemplate>
+                    <TextBlock Text="{Binding Name}"/>
+                </ItemContainerTemplate>
+            </ComboBox.ItemTemplate>-->
+        </ComboBox>
+        <DatePicker Grid.Row="2" Grid.Column="3"    Margin="5" Text="{Binding DataItem.PaymentDate}" />
+        <TextBlock  Grid.Row="2" Grid.Column="0" Text="Payment Date: " Margin="5"/>
+        <TextBlock  Grid.Row="3" Grid.Column="0" Text="Tranaction Type" Margin="5"/>
+        <TextBox    Grid.Row="3" Grid.Column="1" Text="{Binding DataItem.TransactionType}" Margin="5"/>
+        <TextBlock  Grid.Row="4" Grid.Column="0" Text="Amount" Margin="5"/>
+        <TextBox    Grid.Row="4" Grid.Column="1" Text="{Binding DataItem.Payment, Mode=TwoWay}" Margin="5"/>
+        <TextBox    Grid.Row="5" Grid.Column="1" Text="{Binding DataItem.Notes}" Margin="5" Height="50" AcceptsReturn="True"/>
+        <TextBlock  Grid.Row="5" Grid.Column="0"  Text="Notes: " Margin="5"/>
+
+        <DockPanel Grid.Row="6" Grid.Column="2" ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Auto"  Grid.ColumnSpan="2" >
+            <Grid>
+                <ListView ItemsSource="{Binding Items, Mode=TwoWay}" SelectedItem="{Binding DataItem}" Margin="5">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Name" DisplayMemberBinding="{Binding BillExpense.Name}" Width="100"/>
+                            <GridViewColumn Header="Payment" DisplayMemberBinding="{Binding PaymentString}" Width="100"/>
+                            <GridViewColumn Header="Payment" DisplayMemberBinding="{Binding Balance}" Width="100"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </Grid>
+        </DockPanel>
+ 
+        <controls:EditorControl Grid.Row="8">
+
+        </controls:EditorControl>
+
+    </Grid>
+</Window>

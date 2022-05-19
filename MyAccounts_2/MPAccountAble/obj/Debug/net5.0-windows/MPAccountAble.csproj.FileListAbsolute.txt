@@ -1,0 +1,7 @@
+C:\Users\MPrybylski\source\MyAccounts_2\MPAccountAble\obj\Debug\net5.0-windows\MPAccountAble.csproj.AssemblyReference.cache
+C:\Users\MPrybylski\source\MyAccounts_2\MPAccountAble\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\MPrybylski\source\MyAccounts_2\MPAccountAble\obj\Debug\net5.0-windows\View\StateProvinceEditorWindow.g.cs
+C:\Users\MPrybylski\source\MyAccounts_2\MPAccountAble\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\MPrybylski\source\MyAccounts_2\MPAccountAble\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\MPrybylski\source\MyAccounts_2\MPAccountAble\obj\Debug\net5.0-windows\MPAccountAble_MarkupCompile.cache
+C:\Users\MPrybylski\source\MyAccounts_2\MPAccountAble\obj\Debug\net5.0-windows\MPAccountAble_MarkupCompile.lref

@@ -1,0 +1,23 @@
+c:\users\matthew\documents\visual studio 2013\Projects\BaseBall Card Project\WPFDataField\bin\Debug\WPFDataField.dll
+c:\users\matthew\documents\visual studio 2013\Projects\BaseBall Card Project\WPFDataField\bin\Debug\WPFDataField.pdb
+c:\users\matthew\documents\visual studio 2013\Projects\BaseBall Card Project\WPFDataField\obj\Debug\WPFDataField.dll
+c:\users\matthew\documents\visual studio 2013\Projects\BaseBall Card Project\WPFDataField\obj\Debug\WPFDataField.pdb
+G:\BaseBall Card Project\WPFDataField\bin\Debug\WPFDataField.dll
+G:\BaseBall Card Project\WPFDataField\bin\Debug\WPFDataField.pdb
+G:\BaseBall Card Project\WPFDataField\obj\Debug\WPFDataField.csprojResolveAssemblyReference.cache
+G:\BaseBall Card Project\WPFDataField\obj\Debug\WPFDataField.dll
+G:\BaseBall Card Project\WPFDataField\obj\Debug\WPFDataField.pdb
+G:\DLLs\WPFDataField.dll
+G:\DLLs\WPFDataField.pdb
+C:\Users\MPrybylski\source\DLLs\WPFDataField.dll
+C:\Users\MPrybylski\source\DLLs\WPFDataField.pdb
+C:\Users\MPrybylski\source\MyAccounts_2\WPFDataField\obj\Debug\WPFDataField.csproj.AssemblyReference.cache
+C:\Users\MPrybylski\source\MyAccounts_2\WPFDataField\obj\Debug\WPFDataField.csproj.CoreCompileInputs.cache
+C:\Users\MPrybylski\source\MyAccounts_2\WPFDataField\obj\Debug\WPFDataField.dll
+C:\Users\MPrybylski\source\MyAccounts_2\WPFDataField\obj\Debug\WPFDataField.pdb
+C:\Users\MPrybylski\mpsource\DLLs\WPFDataField.dll
+C:\Users\MPrybylski\mpsource\DLLs\WPFDataField.pdb
+C:\Users\MPrybylski\mpsource\MyAccounts_2\WPFDataField\obj\Debug\WPFDataField.csproj.AssemblyReference.cache
+C:\Users\MPrybylski\mpsource\MyAccounts_2\WPFDataField\obj\Debug\WPFDataField.csproj.CoreCompileInputs.cache
+C:\Users\MPrybylski\mpsource\MyAccounts_2\WPFDataField\obj\Debug\WPFDataField.dll
+C:\Users\MPrybylski\mpsource\MyAccounts_2\WPFDataField\obj\Debug\WPFDataField.pdb

@@ -1,0 +1,55 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "MpContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models\/DB",
+   "ProjectRootNamespace": "EF.Data",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[tbl_Account]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tbl_AccountLedger]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tbl_Expense]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tbl_ExpenseBalance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tbl_ExpenseType]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "DESKTOP-9QOTT3N\\SQLEXPRESS.mp",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": true,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}

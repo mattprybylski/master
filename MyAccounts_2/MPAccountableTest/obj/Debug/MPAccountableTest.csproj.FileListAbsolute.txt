@@ -1,0 +1,17 @@
+C:\Users\MPrybylski\source\MyAccounts_2\MPAccountableTest\bin\Debug\MPAccountableTest.exe.config
+C:\Users\MPrybylski\source\MyAccounts_2\MPAccountableTest\bin\Debug\MPAccountableTest.exe
+C:\Users\MPrybylski\source\MyAccounts_2\MPAccountableTest\bin\Debug\MPAccountableTest.pdb
+C:\Users\MPrybylski\source\MyAccounts_2\MPAccountableTest\obj\Debug\MPAccountableTest.csproj.AssemblyReference.cache
+C:\Users\MPrybylski\source\MyAccounts_2\MPAccountableTest\obj\Debug\MainWindow.g.cs
+C:\Users\MPrybylski\source\MyAccounts_2\MPAccountableTest\obj\Debug\App.g.cs
+C:\Users\MPrybylski\source\MyAccounts_2\MPAccountableTest\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\MPrybylski\source\MyAccounts_2\MPAccountableTest\obj\Debug\MPAccountableTest_MarkupCompile.cache
+C:\Users\MPrybylski\source\MyAccounts_2\MPAccountableTest\obj\Debug\MPAccountableTest_MarkupCompile.lref
+C:\Users\MPrybylski\source\MyAccounts_2\MPAccountableTest\obj\Debug\MainWindow.baml
+C:\Users\MPrybylski\source\MyAccounts_2\MPAccountableTest\obj\Debug\Themes\Generic.baml
+C:\Users\MPrybylski\source\MyAccounts_2\MPAccountableTest\obj\Debug\MPAccountableTest.g.resources
+C:\Users\MPrybylski\source\MyAccounts_2\MPAccountableTest\obj\Debug\MPAccountableTest.Properties.Resources.resources
+C:\Users\MPrybylski\source\MyAccounts_2\MPAccountableTest\obj\Debug\MPAccountableTest.csproj.GenerateResource.cache
+C:\Users\MPrybylski\source\MyAccounts_2\MPAccountableTest\obj\Debug\MPAccountableTest.csproj.CoreCompileInputs.cache
+C:\Users\MPrybylski\source\MyAccounts_2\MPAccountableTest\obj\Debug\MPAccountableTest.exe
+C:\Users\MPrybylski\source\MyAccounts_2\MPAccountableTest\obj\Debug\MPAccountableTest.pdb

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EF.Data\EF.Data.csproj" />
+    <ProjectReference Include="..\MP.EF.Business\MP.EF.Business.csproj" />
+    <ProjectReference Include="..\MyAccountModels\MyAccountModels.csproj" />
+  </ItemGroup>
+
+</Project>

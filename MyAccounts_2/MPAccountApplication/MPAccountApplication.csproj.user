@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Common\SearchUserControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Controls\EditorControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\BillExpenseViewWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\BillExpenseViewWindow2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\ExpenseTypeViewWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\ExpenseViewWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\LedgerViewWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\MainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\StateProvinceViewWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="App.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Common\SearchUserControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Controls\EditorControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\ExpanderStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\FadeOutStoryBoard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\GlassButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\BillExpenseViewWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\BillExpenseViewWindow2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\ExpenseTypeViewWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\ExpenseViewWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\LedgerViewWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\StateProvinceViewWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

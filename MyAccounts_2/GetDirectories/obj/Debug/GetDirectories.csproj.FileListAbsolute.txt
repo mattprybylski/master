@@ -1,0 +1,7 @@
+C:\Users\MPrybylski\source\MyAccounts_2\GetDirectories\bin\Debug\GetDirectories.exe.config
+C:\Users\MPrybylski\source\MyAccounts_2\GetDirectories\bin\Debug\GetDirectories.exe
+C:\Users\MPrybylski\source\MyAccounts_2\GetDirectories\bin\Debug\GetDirectories.pdb
+C:\Users\MPrybylski\source\MyAccounts_2\GetDirectories\obj\Debug\GetDirectories.csproj.AssemblyReference.cache
+C:\Users\MPrybylski\source\MyAccounts_2\GetDirectories\obj\Debug\GetDirectories.csproj.CoreCompileInputs.cache
+C:\Users\MPrybylski\source\MyAccounts_2\GetDirectories\obj\Debug\GetDirectories.exe
+C:\Users\MPrybylski\source\MyAccounts_2\GetDirectories\obj\Debug\GetDirectories.pdb

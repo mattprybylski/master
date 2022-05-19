@@ -1,0 +1,323 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\MyAccountsBusiness\\MyAccountsBusiness.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\EF.Data\\EF.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\EF.Data\\EF.Data.csproj",
+        "projectName": "EF.Data",
+        "projectPath": "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\EF.Data\\EF.Data.csproj",
+        "packagesPath": "C:\\Users\\MPrybylski\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\EF.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MPrybylski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://internationalvending.pkgs.visualstudio.com/_packaging/IVMFeed%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\MP.EF.Business\\MP.EF.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\MP.EF.Business\\MP.EF.Business.csproj",
+        "projectName": "MP.EF.Business",
+        "projectPath": "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\MP.EF.Business\\MP.EF.Business.csproj",
+        "packagesPath": "C:\\Users\\MPrybylski\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\MP.EF.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MPrybylski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://internationalvending.pkgs.visualstudio.com/_packaging/IVMFeed%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\EF.Data\\EF.Data.csproj": {
+                "projectPath": "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\EF.Data\\EF.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\MyAccountModels\\MyAccountModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\MyAccountModels\\MyAccountModels.csproj",
+        "projectName": "MyAccountModels",
+        "projectPath": "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\MyAccountModels\\MyAccountModels.csproj",
+        "packagesPath": "C:\\Users\\MPrybylski\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\MyAccountModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MPrybylski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://internationalvending.pkgs.visualstudio.com/_packaging/IVMFeed%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\EF.Data\\EF.Data.csproj": {
+                "projectPath": "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\EF.Data\\EF.Data.csproj"
+              },
+              "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\WPFDataField\\WPFDataField.csproj": {
+                "projectPath": "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\WPFDataField\\WPFDataField.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "PostSharp.Redist": {
+              "target": "Package",
+              "version": "[6.9.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\MyAccountsBusiness\\MyAccountsBusiness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\MyAccountsBusiness\\MyAccountsBusiness.csproj",
+        "projectName": "MyAccountsBusiness",
+        "projectPath": "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\MyAccountsBusiness\\MyAccountsBusiness.csproj",
+        "packagesPath": "C:\\Users\\MPrybylski\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\MyAccountsBusiness\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MPrybylski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://internationalvending.pkgs.visualstudio.com/_packaging/IVMFeed%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\EF.Data\\EF.Data.csproj": {
+                "projectPath": "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\EF.Data\\EF.Data.csproj"
+              },
+              "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\MP.EF.Business\\MP.EF.Business.csproj": {
+                "projectPath": "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\MP.EF.Business\\MP.EF.Business.csproj"
+              },
+              "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\MyAccountModels\\MyAccountModels.csproj": {
+                "projectPath": "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\MyAccountModels\\MyAccountModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\WPFDataField\\WPFDataField.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\WPFDataField\\WPFDataField.csproj",
+        "projectName": "WPFDataField",
+        "projectPath": "C:\\Users\\MPrybylski\\mpsource\\MyAccounts_2\\WPFDataField\\WPFDataField.csproj",
+        "frameworks": {
+          "net45": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net45": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+﻿<Window x:Class="MyAccounts_2.View.StateEditorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyAccounts_2.View"
+        xmlns:control="clr-namespace:MyAccounts_2.Controls"
+        mc:Ignorable="d"
+        Title="StateEditorWindow" Height="450" Width="800" WindowStyle="SingleBorderWindow" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width ="500"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Text="State Name" Grid.Column="0" Margin="5" />
+            <TextBox Grid.Row="0" Text="{Binding DataItem.Name}" Grid.Column="1" Margin="5" />
+        </Grid>
+        
+        <DockPanel Grid.Row="1" ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Auto" >
+            <Grid>
+                <ListView ItemsSource="{Binding Items, Mode=TwoWay}" SelectedItem="{Binding DataItem}" Margin="5">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}" Width="50"/>
+                            <GridViewColumn Header="Abbreviation" DisplayMemberBinding="{Binding Abbreviation}" Width="150"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </Grid>
+        </DockPanel>
+        <control:SearchTextBox2 Grid.Column="0" Grid.Row="3" Tap="SearchTextBox2_Tap" Width="50" Height="50" Background="Yellow" />
+    </Grid>
+</Window>

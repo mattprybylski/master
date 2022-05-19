@@ -1,0 +1,12 @@
+C:\Users\MPrybylski\source\MyAccounts_2\MP.Logging\obj\Debug\net5.0-windows\MP.Logging.csproj.AssemblyReference.cache
+C:\Users\MPrybylski\source\MyAccounts_2\MP.Logging\obj\Debug\net5.0-windows\MP.Logging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MPrybylski\source\MyAccounts_2\MP.Logging\obj\Debug\net5.0-windows\MP.Logging.AssemblyInfoInputs.cache
+C:\Users\MPrybylski\source\MyAccounts_2\MP.Logging\obj\Debug\net5.0-windows\MP.Logging.AssemblyInfo.cs
+C:\Users\MPrybylski\source\MyAccounts_2\MP.Logging\obj\Debug\net5.0-windows\MP.Logging.csproj.CoreCompileInputs.cache
+C:\Users\MPrybylski\source\MyAccounts_2\MP.Logging\bin\Debug\net5.0-windows\MP.Logging.deps.json
+C:\Users\MPrybylski\source\MyAccounts_2\MP.Logging\bin\Debug\net5.0-windows\MP.Logging.dll
+C:\Users\MPrybylski\source\MyAccounts_2\MP.Logging\bin\Debug\net5.0-windows\ref\MP.Logging.dll
+C:\Users\MPrybylski\source\MyAccounts_2\MP.Logging\bin\Debug\net5.0-windows\MP.Logging.pdb
+C:\Users\MPrybylski\source\MyAccounts_2\MP.Logging\obj\Debug\net5.0-windows\MP.Logging.dll
+C:\Users\MPrybylski\source\MyAccounts_2\MP.Logging\obj\Debug\net5.0-windows\ref\MP.Logging.dll
+C:\Users\MPrybylski\source\MyAccounts_2\MP.Logging\obj\Debug\net5.0-windows\MP.Logging.pdb
