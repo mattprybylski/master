@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cJQ0qTdZuz34DBt5eEqKnKxVNUNxnR3iRFB5GbrxlcHPPTtlJFTYEHLFQ5MD5Qt/sQQFyWEooadIVAGv1yi8bA==",
+  "dgSpecHash": "vGaryxD8zAEujsfLSt0d1E6FKB0/6d9pCHnAY8YbCpPIThsudsFR+eT6jE51XNa99sGUStgY6jFtGfxd50mprw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MPrybylski\\mpsource\\SQLITE_Editor2000\\SQLITE_Editor2000\\SQLITE_Editor2000.csproj",
+  "projectFilePath": "C:\\Users\\MPrybylski\\mpsource\\master\\SQLITE_Editor2000\\SQLITE_Editor2000\\SQLITE_Editor2000.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MPrybylski\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.1\\microsoft.extensions.configuration.6.0.1.nupkg.sha512",
     "C:\\Users\\MPrybylski\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

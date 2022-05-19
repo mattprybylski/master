@@ -53,7 +53,7 @@ namespace SQLITE_Editor2000.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/SQLITE_Editor2000;component/view/createdatabasewindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/SQLITE_Editor2000;V1.0.0.0;component/view/createdatabasewindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\CreateDataBaseWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
